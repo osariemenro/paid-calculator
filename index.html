@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Paid calculator by @osariemros</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='app.css'>
+</head>
+<body id="calculator-application">
+    <div id="blur">
+        <!-- <center> -->
+            <div class="cal-header">
+                <div id="calculation-result"></div>
+                <div id="display-calculation"></div>
+                <input type="text" name="typeValueArea" id="type-value-area">
+            </div>
+        
+            <div class="input-terms">
+                <div id="addition">+</div>
+                <div id="subtraction">-</div>
+                <div id="multiply">*</div>
+                <div id="division">/</div>
+                <div id="equal-sign">=</div>
+            </div>
+        
+            <div id="display-ctrl-pop" class="pop-up hide-pop">
+                <p>
+                    Hi, it seems like your <span id="trial-plan">Free trial</span> is over. <span>Buy a plan to continue</span>
+                </p>
+                <button id="go-buy-page">Buy plan</button>
+            </div>
+            
+        
+            <div id="subscription-plans" class="hide-sub">
+                <div class="sub-plans">
+                    <div class="plans" id="plan-one">
+                        <h4>mini</h4>
+                        <h3 id="price">$10</h3>
+                        <ul id="features">
+                            <li>5 min</li>
+                            <li>All signs</li>
+                            <li>Features</li>
+                            <li>Features</li>
+                        </ul>
+    
+                        <button id="buy-btn-10">Buy plan</button>
+                    </div>
+                    <div class="plans" id="plan-two">
+                        <h4>medium</h4>
+                        <h3 id="price">$50</h3>
+                        <ul id="features">
+                            <li>20 min</li>
+                            <li>All sign</li>
+                            <li>Features</li>
+                            <li>Features</li>
+                        </ul>
+    
+                        <button id="buy-btn-50">Buy plan</button>
+                    </div>
+                    <div class="plans" id="plan-three">
+                        <h4>major</h4>
+                        <h3 id="price">$100</h3>
+                        <ul id="features">
+                            <li>Unlimited</li>
+                            <li>All sign</li>
+                            <li>Features</li>
+                            <li>Store values</li>
+                        </ul>
+    
+                        <button id="buy-btn-100">Buy plan</button>
+                    </div>
+                </div>
+            </div>    
+    </div>
+    <!-- </center> -->
+
+    <script src='vendor.js'></script>
+    <script src='app.js'></script>
+    <script src='payment.js'></script>
+</body>
+</html>
